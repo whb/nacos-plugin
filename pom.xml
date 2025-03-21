@@ -33,7 +33,6 @@
         <module>nacos-encryption-plugin-ext</module>
         <module>nacos-trace-plugin-ext</module>
         <module>nacos-custom-environment-plugin-ext</module>
-        <module>nacos-datasource-plugin-ext</module>
         <module>nacos-config-change-plugin-ext</module>
     </modules>
 
@@ -79,12 +78,7 @@
                 <artifactId>nacos-trace-plugin</artifactId>
                 <version>${alibaba-nacos.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.alibaba.nacos</groupId>
-                <artifactId>nacos-datasource-plugin</artifactId>
-                <version>${alibaba-nacos.version}</version>
-                <scope>provided</scope>
-            </dependency>
+          
             
             <dependency>
                 <groupId>com.alibaba.nacos</groupId>
